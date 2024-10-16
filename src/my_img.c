@@ -82,6 +82,10 @@ void	info(t_data *data)
 		10, 175, color, "uma nocao de perspectiva.");
 	mlx_string_put(data->mlx_ptr, data->win_ptr,
 		10, 195, color, "Fdf feito por Daniel Chissali");
+	mlx_string_put(data->mlx_ptr, data->win_ptr,
+		10, 215, 0x00f027, "direita para mudar de mapa");
+	mlx_string_put(data->mlx_ptr, data->win_ptr,
+		10, 235, 0x00f027, "esquerda para mudar o mapa");
 }
 
 int	read_line(int fd, char **line)
